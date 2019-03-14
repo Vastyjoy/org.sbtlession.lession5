@@ -70,6 +70,8 @@ public class Console {
                     exceptionHandler.showExceptionMessage(x);
                 }catch (TerminalServerException x){
                     exceptionHandler.showExceptionMessage(x);
+                }catch(Exception x){
+                    exceptionHandler.showExceptionMessage(x);
                 }
 
             }
